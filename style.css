@@ -22,7 +22,7 @@ p, h1, h2, h3, h4 {
 commom
 ---------------------------------------------------- */
 body {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;;
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   color: #555555;
   margin: 0;
   font-weight:bold; 
@@ -75,12 +75,12 @@ our_ability
   text-align: center;
   font-size: 32px;
   margin-top: 70px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   
 }
 .under_line {
   display: block;
-  border-bottom:4px solid #51A2BC;
+  border-bottom:5px solid #51A2BC;
   width: 185px;
   margin: 0 auto;
 }
