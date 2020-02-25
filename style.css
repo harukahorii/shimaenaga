@@ -90,7 +90,12 @@ our_ability
   text-align: center;
 }
 .ability_card h3 {
-  font-size: 28px;
+  font-size: 30px;
+}
+.ability_card p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
 }
 .ability_cont {
   display: flex;
