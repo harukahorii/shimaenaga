@@ -124,7 +124,13 @@ necessary
   font-weight: 400;
   margin-top: 16px;
 }
-
+.necessary-left a {
+  text-decoration: none;
+  color: #51A2BC;
+  border: 2px solid  #51A2BC;
+  border-radius: 10px;
+  padding: 20px;
+}
 
 
 
