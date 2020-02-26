@@ -108,9 +108,17 @@ our_ability
 }
 
 /* ---------------------------------------------------
-
+necessary
 ---------------------------------------------------- */
-
+.necessary {
+  display: flex;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.necessary-left  h2{
+  font-size: 32px;
+  line-height: 55px;
+}
 
 
 
