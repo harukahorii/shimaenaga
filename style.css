@@ -114,7 +114,13 @@ necessary
   display: flex;
   max-width: 980px;
   margin: 0 auto;
+  position: relative;
+  
 }
+/* .necessary-left{
+  position: absolute;
+  left: 0;
+} */
 .necessary-left  h2{
   font-size: 32px;
   line-height: 55px;
@@ -123,13 +129,21 @@ necessary
   font-size: 22px;
   font-weight: 400;
   margin-top: 16px;
+  padding-bottom: 30px;
 }
 .necessary-left a {
   text-decoration: none;
   color: #51A2BC;
-  border: 2px solid  #51A2BC;
-  border-radius: 10px;
-  padding: 20px;
+  border: 3px solid  #51A2BC;
+  border-radius: 30px;
+  padding: 12px 50px;
+  font-size: 22px;
+}
+.necessary-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 
 
