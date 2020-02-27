@@ -60,18 +60,42 @@ header {
 /* ---------------------------------------------------
 top-page
 ---------------------------------------------------- */
-
-.top_image img {
+.top_image {
   width: 100%;
   height: 600px;
   
 }
+.top_image img {
+  width: 100%;
+}
+.ipad {
+  display: none;
+}
+.sp {
+  display: none;
+}
 @media screen and (max-width: 990px) {
+  .top_image {
+    height: 465px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ipad {
+    display: block;
+  }
+  .pc {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .ipad {
+    display: none;
+  }
   .sp {
     display: block;
   }
 }
-
 /* ---------------------------------------------------
 section共通
 ---------------------------------------------------- */
@@ -79,8 +103,10 @@ section共通
 /* ---------------------------------------------------
 our_ability
 ---------------------------------------------------- */
+
 .our_ability {
   padding-bottom: 70px;
+  margin-top: 0;
 }
 .our_ability h1 {
   text-align: center;
