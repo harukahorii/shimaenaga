@@ -115,12 +115,10 @@ necessary
   max-width: 980px;
   margin: 0 auto;
   position: relative;
-  
 }
-/* .necessary-left{
-  position: absolute;
-  left: 0;
-} */
+.necessary-left {
+  height: 450px;
+}
 .necessary-left  h2{
   font-size: 32px;
   line-height: 55px;
@@ -129,7 +127,7 @@ necessary
   font-size: 22px;
   font-weight: 400;
   margin-top: 16px;
-  padding-bottom: 30px;
+  padding-bottom: 32px;
 }
 .necessary-left a {
   text-decoration: none;
@@ -141,9 +139,7 @@ necessary
 }
 .necessary-right {
   position: absolute;
-  top: 0;
   right: 0;
-  bottom: 0;
 }
 
 
