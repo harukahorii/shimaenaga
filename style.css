@@ -115,6 +115,7 @@ necessary
   max-width: 980px;
   margin: 0 auto;
   position: relative;
+  padding-bottom: 75px;
 }
 .necessary-left {
   height: 450px;
@@ -150,15 +151,12 @@ footer
 ---------------------------------------------------- */
 footer {
   text-align: center;
-  height: 105px;
+  height: 50px;
+  
+  background: #D5D5D5;
 }
 .footer_text {
-  padding: 60px 0 30px 0;
+  /* padding: 60px 0 30px 0; */
   font-size: 15px;
-}
-.contact_subtit {
-  padding-top: 12px;
-}
-.contact_text {
-  padding: 45px 0;
+  color: #fff;
 }
