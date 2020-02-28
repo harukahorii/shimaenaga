@@ -55,6 +55,12 @@ header {
 .header-left ul li  {
   display: inline;
 }
+@media screen and (max-width: 990px) {
+  .h_wrapper {
+    max-width: 680px;
+  }
+}
+
 
 
 /* ---------------------------------------------------
@@ -94,6 +100,9 @@ top-page
   }
   .sp {
     display: block;
+  }
+  .top_image {
+    height: 320px;
   }
 }
 /* ---------------------------------------------------
