@@ -164,6 +164,7 @@ our_ability
   }
   .ability_card {
     margin: 0 auto;
+    padding-top: 50px;
 }
   
 }
@@ -206,6 +207,28 @@ necessary
 .necessary-right img{
   height: 375px;
 
+}
+@media screen and (max-width: 990px) {
+  .necessary {
+    max-width: 790px;
+  }
+  .necessary-left p {
+    font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  .necessary {
+    display: block;
+}
+.necessary-right {
+  position: relative;
+}
+.necessary-left {
+  width: 340px;
+  margin: 0 auto;
+}
 }
 
 
