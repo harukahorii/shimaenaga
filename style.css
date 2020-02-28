@@ -150,6 +150,24 @@ our_ability
   padding-top: 52px;
 }
 
+@media screen and (max-width: 990px) {
+  .ability_card img {
+    width: 100%;
+  }
+  .ability_card {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ability_cont {
+    display: block;
+  }
+  .ability_card {
+    margin: 0 auto;
+}
+  
+}
+
 /* ---------------------------------------------------
 necessary
 ---------------------------------------------------- */
