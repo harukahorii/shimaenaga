@@ -74,6 +74,10 @@ top-page
 .top_image img {
   width: 100%;
 }
+.pc {
+  display:block;
+  height: 654px;
+}
 .ipad {
   display: none;
 }
@@ -224,6 +228,8 @@ necessary
 }
 .necessary-right {
   position: relative;
+  width: 405px;
+  margin: 0 auto;
 }
 .necessary-left {
   width: 340px;
