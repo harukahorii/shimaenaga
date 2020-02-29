@@ -60,6 +60,12 @@ header {
     max-width: 680px;
   }
 }
+@media screen and (max-width: 768px) {
+  .header-left {
+    display: none;
+  }
+
+}
 
 /* ---------------------------------------------------
 ハンバーガーメニュー
@@ -162,6 +168,11 @@ nav.NavMenu{
   transform: rotate(45deg);
 }
 
+@media screen and (min-width: 768px) {
+  .Toggle {
+    display: none;
+  }
+}
 
 /* ---------------------------------------------------
 top-page
@@ -176,13 +187,19 @@ top-page
 }
 .pc {
   display:block;
-  height: 654px;
+  /* height: 654px; */
 }
 .ipad {
   display: none;
 }
 .sp {
   display: none;
+}
+
+@media screen and (min-width: 1392px) {
+ .pc {
+   height: 654px;
+ }
 }
 @media screen and (max-width: 990px) {
   .top_image {
